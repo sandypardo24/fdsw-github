@@ -41,3 +41,32 @@ body {
   }
 
 }
+
+.focus:hover {
+    transition: color 0.1s;
+    color: #115321;
+    cursor: pointer;
+}
+.focus:active {
+    color: #12c13e;
+    transition: color 0.1s;
+    cursor: wait ;
+}
+        
+#pie a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+#pie a i {
+  transition: color 0.3s;
+}
+
+#pie a:focus, #pie a:active {
+  outline: none;
+}
+
+#pie a:hover {
+  color: #706da9;
+}
